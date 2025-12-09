@@ -14,23 +14,6 @@ Grycon takes a document, extracts static features (entropy, URLs, JavaScript, VB
 
 ## Features
 
-🧾 **Supported formats**: PDF, RTF, DOC/DOCX/DOCM, XLS/XLSX/XLSM/XLAM.
-🔐 **Strict MIME validation**:
-  - Signature-based detection (PDF/RTF/OLE/OOXML).
-  - Rejects unsupported types.
-🧮 **Static feature extraction**:
-  - file size (log scale)
-  - Shannon entropy
-  - printable/ASCII ratio
-  - number of URLs
-  - JavaScript/OpenAction markers (PDF)
-  - VBA and embedded objects
-  - suspicious tokens (e.g. PowerShell, `xor`)
-  - high-bytes ratio
-🌈 **CLI UX**:
-  - Colored output via `colorama` (can be disabled with `--no-color`).
-  - Verbosity levels `-v`, `-vv`.
-  - Execution time measurement.
 
 ---
 
